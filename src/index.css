@@ -139,7 +139,7 @@ height: 835px; */
   margin-left: 120px;
   margin-top:48px;
   /* position: absolute; */
-  width: 58%;
+  width: 65%;
   /* height: 734px; */
   /* left: 133px; */
   top: 113px;
@@ -152,8 +152,8 @@ height: 835px; */
 .filter {
   background: rgba(24, 24, 24, 1);
   max-width: fit-content !important;
-  position: fixed;
-  width:30%;
+  /* position: fixed; */
+  width:35%;
   right: 0;
   
 }

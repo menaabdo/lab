@@ -52,5 +52,22 @@
         status:'-0.25%',
         risk:'Low Risk'
     },
+    {
+        type:'MFST',
+        num:200,
+        status:'-0.25%',
+        risk:'Low Risk'
+    },  {
+        type:'MFST',
+        num:200,
+        status:'-0.25%',
+        risk:'Low Risk'
+    },
+    {
+        type:'MFST',
+        num:200,
+        status:'-0.25%',
+        risk:'Low Risk'
+    },
 ]
 export default allfields;

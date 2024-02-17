@@ -47,7 +47,7 @@ function Filters(props) {
             className="flex flex-row ml-1 justify-between"
             style={{ fontSize: 11 }}
           >
-            <div className="border-l pl-1 "  style={{ fontSize: 10 }} >
+            <div className="border-l pl-1 "  style={{ fontSize: 11.6 }} >
               
               <p className="flex items-center mb-1 mt-2"><img src={care} className="p-1 " /> Health Care</p>
               <p className="flex items-center">  <img src={material} className="p-1 mb-1"/>Materials</p>
@@ -58,7 +58,7 @@ function Filters(props) {
               <span>Real Estate</span></p>
           
             </div>
-            <div className="border-l pl-1 "  style={{ fontSize: 10 }}>
+            <div className="border-l pl-1 "  style={{ fontSize: 11.6 }}>
             <p className="flex items-center "><img src={it} className="p-1 mb-1"/> 
             <span>IT</span></p>
             <p className="flex items-center "><img src={communication} className="p-1 mb-1"/>
