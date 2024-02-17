@@ -41,7 +41,7 @@ div{
   width: 13%;
   position: fixed;
   left: 0;
-  height: 486px;
+  height: 500px;
   z-index:1;
   /* height: 835px; */
   /* left: 7px;
@@ -152,10 +152,10 @@ height: 835px; */
 .filter {
   background: rgba(24, 24, 24, 1);
   max-width: fit-content !important;
-  position: fixed;
+  /* position: fixed; */
   width:30%;
   right: 0;
-  height:465px;
+  /* height:400px; */
   
 }
 
