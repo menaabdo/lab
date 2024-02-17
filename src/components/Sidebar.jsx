@@ -24,24 +24,24 @@ function Sidebar(props) {
         <img src={logo} />
       </div>
       <ul className="menu py-3">
-        <li className="flex justify-start py-2">
+        <li className="flex justify-start items-center  py-2">
         <FontAwesomeIcon icon={faBell}  className="pr-1"/>
           Alerts
         </li>
-        <li className="flex justify-start py-2">
+        <li className="flex justify-start items-center  py-2">
           <FontAwesomeIcon icon={faGraduationCap} className="pr-1" />
           Training
         </li>
-        <li id='inactive1' className="flex justify-start secondary py-2">
+        <li id='inactive1' className="flex justify-start items-center  secondary py-2">
           <FontAwesomeIcon icon={faGears} className="secondary pr-1" />
           Automation
         </li>
 
-        <li  id='inactive2'className="flex py-2">
+        <li  id='inactive2'className="flex py-2 items-center ">
           <FontAwesomeIcon icon={faFolderOpen} className="secondary pr-1" />
           Portfolio
         </li>
-        <li className="flex py-2" style={{ color: "rgba(93, 93, 93, 1)" }}>
+        <li className="flex py-2 items-center " style={{ color: "rgba(93, 93, 93, 1)" }}>
           <img src={trading} className="pr-1" />
           Trading
         </li>
