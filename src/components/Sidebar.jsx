@@ -11,15 +11,16 @@ import { faUserTie } from "@fortawesome/free-solid-svg-icons";
 import avatar from '../assets/avatar.svg'
 import Avatar from "antd/es/avatar/avatar";
 function Sidebar(props) {
-  const [displaySidebar, setDisplaySidebar] = useState(true);
+  const [displaySidebar, setDisplaySidebar] = useState(false);
 
-  const handleSidebarDisplay=(e)=>{
+  const handleSidebarDisplay=()=>{
+    
          setDisplaySidebar(!displaySidebar)
 
   }
   return (
     <>
-   {displaySidebar?( <div className= 'sidebar' onClick={handleSidebarDisplay}>
+   {displaySidebar?( <div className= 'sidebar' onClick={handleSidebarDisplay} >
       <div className="img-logo">
         <img src={logo} />
       </div>
@@ -60,7 +61,7 @@ function Sidebar(props) {
         <span className="secondary mt-8">Street Suite. 2.0</span>
       </div>
     </div>):(
-      <div className="sidebar-x" onClick={handleSidebarDisplay}>
+      <div className="sidebar-x" onClick={handleSidebarDisplay} onMouseOver={handleSidebarDisplay}>
         <div className="img-logo-x">
           <img src={logo}/>
         </div>
