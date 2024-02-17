@@ -152,9 +152,10 @@ height: 835px; */
 .filter {
   background: rgba(24, 24, 24, 1);
   max-width: fit-content !important;
-  /* position: fixed; */
-  width:35%;
+  position: fixed;
+  width:30%;
   right: 0;
+  height:465px;
   
 }
 
